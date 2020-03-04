@@ -1,0 +1,59 @@
+body {
+  background-color: orange;
+  margin:0;
+  font-family: "Monserrat", "Avenir";
+  /* background-image:url("https://media.giphy.com/media/3qXi5eIvcgCmTDObOU/giphy.gif"); */
+}
+.square {
+  width: 30%;
+  background:purple;
+  padding-bottom: 30%;
+  float:left;
+  margin: 1.6%;
+}
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: normal;
+  color: purple;
+  text-align: center;
+  background: gray;
+  margin: 0;
+  text-transform: uppercase;
+}
+span {
+  color: purple;
+}
+#stripe {
+  background: #D3D3D3;
+  height: 30px;
+  text-align: center;
+  color:purple;
+}
+.selected {
+  color:purple;
+  background:purple;
+  background:#D3D3D3;
+}
+#colorDisplay{
+  font-size: 200%;
+}
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weigth: bold;
+  color: purple;
+  letter-spacing: 1.5px;
+}
+#message{
+  display:inline-block;
+  width:20%;
+}
+button:hover {
+  color:white;
+  background:purple;
+}
